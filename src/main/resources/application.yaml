@@ -1,0 +1,21 @@
+camunda:
+  bpm:
+    admin-user:
+      id: demo
+      password: demo
+      first-name: Dan
+      last-name: Demo
+    filter:
+      create: All tasks
+
+spring:
+  h2:
+    console:
+      enabled: false
+  datasource:
+    url: 'jdbc:h2:file:./camunda-h2-database'
+    username: sa
+    password: sa
+
+server:
+  port: 8080
