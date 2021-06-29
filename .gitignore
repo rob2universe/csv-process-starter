@@ -12,3 +12,4 @@ buildNumber.properties
 /.idea/
 /camunda-h2-database.trace.db
 /camunda-h2-database.mv.db
+/csv-procsss-starter.iml
